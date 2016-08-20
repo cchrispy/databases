@@ -70,12 +70,12 @@ var app = {
         app.stopSpinner();
         // Only bother updating the DOM if we have a new message
         
-          app.populateRooms(data);
+        app.populateRooms(data);
 
-          // Update the UI with the fetched messages
-          app.populateMessages(data, animate);
+        // Update the UI with the fetched messages
+        app.populateMessages(data, animate);
 
-          // Store the ID of the most recent message
+        // Store the ID of the most recent message
           // app.lastMessageId = mostRecentMessage.objectId;
       },
       error: function(data) {

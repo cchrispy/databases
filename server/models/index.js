@@ -24,7 +24,7 @@ module.exports = {
       var roomname = message.roomname; //JSON.stringify(message.roomname);
       var message = JSON.stringify(message.text);
       // Need to build fetcher of unique keys for room and usernames 
-      console.log('__models L27 Incoming message to message post: ', message)
+      console.log('__models L27 Incoming message to message post: ', message);
       // query for user id
       var queryId = 'SELECT id FROM users WHERE username = ' + JSON.stringify(user) + ';';
 
